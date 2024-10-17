@@ -2,33 +2,6 @@
 
 This project displays real-time weather data and forecasts for various cities, with detailed metrics like temperature, air quality, wind speed, and other key parameters. It also includes visualizations and future trends, leveraging data from the OpenWeatherMap API.
 
-## Features
-
-- **Current Weather Data**:
-  - Displays the current temperature, weather conditions (e.g., "broken clouds"), and location (e.g., "Faridabad, IN").
-  - Shows detailed weather metrics, including wind speed, humidity, visibility, and pressure.
-  
-- **5-Day Weather Forecast**:
-  - Provides a 5-day weather forecast with temperature and weather conditions for each day.
-
-- **Today's Highlights**:
-  - **Air Quality Index (AQI)**: Shows PM2.5, SO2, NO2, O3 concentrations, and the AQI level.
-  - **Sunrise & Sunset**: Displays the times for sunrise and sunset.
-  - **Feels Like**: Shows how the weather feels (real-feel temperature).
-
-- **Hourly Weather Updates**:
-  - Provides weather updates for each day at different times of the day.
-  - Displays the changing weather conditions and wind speeds across various times.
-
-- **Wind Speed Information**:
-  - Visualizes wind speed and direction for different times of the day.
-
-- **Weather Summary**:
-  - Includes a summary of today’s weather and future trend predictions.
-
-- **Graphical Visualization**:
-  - Historical weather data and trends are presented in graphs for easy analysis and visual understanding.
-
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/db0605ca-83e3-48c9-9e0d-1bb03f1f90db)
 
@@ -55,6 +28,34 @@ This project displays real-time weather data and forecasts for various cities, w
 
 ![image](https://github.com/user-attachments/assets/85a4b1db-63d5-438c-9ffe-0a7f4c308bd4)
 
+
+## Features
+
+- **Current Weather Data**:
+  - Displays the current temperature, weather conditions (e.g., "broken clouds"), and location (e.g., "Faridabad, IN").
+  - Shows detailed weather metrics, including wind speed, humidity, visibility, and pressure.
+  
+- **5-Day Weather Forecast**:
+  - Provides a 5-day weather forecast with temperature and weather conditions for each day.
+
+- **Today's Highlights**:
+  - **Air Quality Index (AQI)**: Shows PM2.5, SO2, NO2, O3 concentrations, and the AQI level.
+  - **Sunrise & Sunset**: Displays the times for sunrise and sunset.
+  - **Feels Like**: Shows how the weather feels (real-feel temperature).
+
+- **Hourly Weather Updates**:
+  - Provides weather updates for each day at different times of the day.
+  - Displays the changing weather conditions and wind speeds across various times.
+
+- **Wind Speed Information**:
+  - Visualizes wind speed and direction for different times of the day.
+
+- **Weather Summary**:
+  - Includes a summary of today’s weather and future trend predictions.
+
+- **Graphical Visualization**:
+  - Historical weather data and trends are presented in graphs for easy analysis and visual understanding.
+    
 
 ## Installation
 
