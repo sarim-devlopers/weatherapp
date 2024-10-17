@@ -60,8 +60,8 @@ This project displays real-time weather data and forecasts for various cities, w
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/weather-monitoring.git
-   cd weather-monitoring
+   git clone https://github.com/sarim-devlopers/weatherapp
+   cd weatherapp
    ```
 
 2.Open index.html in your browser or run it using a live server extension (if applicable).
