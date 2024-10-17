@@ -1,93 +1,86 @@
-Here's a template for your README in markdown, tailored for your weather monitoring system:
+# Real-Time Weather Monitoring System
 
----
-
-# Real-Time Weather Monitoring System with Rollups and Aggregates
-
-## Overview
-
-This project is a real-time data processing system that monitors weather conditions across major metros in India using the [OpenWeatherMap API](https://openweathermap.org/). The system fetches real-time weather data, processes it, and provides daily summaries, alerts, and visualizations based on user-defined thresholds.
+This project displays real-time weather data and forecasts for various cities, with detailed metrics like temperature, air quality, wind speed, and other key parameters. It also includes visualizations and future trends, leveraging data from the OpenWeatherMap API.
 
 ## Features
 
-- **Real-Time Data Fetching**: Periodically retrieves weather data (e.g., temperature, weather condition) for metros such as Delhi, Mumbai, Chennai, Bangalore, Kolkata, and Hyderabad.
-- **Temperature Conversion**: Converts temperature values from Kelvin to Celsius (with user preference support for Fahrenheit).
-- **Daily Weather Summary**: Calculates daily aggregates like average, maximum, and minimum temperature, and dominant weather condition.
-- **Alerting System**: Alerts the user when certain thresholds (e.g., temperature exceeding 35°C) are breached.
-- **Visualizations**: Displays weather summaries, historical data trends, and triggered alerts using graphical elements.
+- **Current Weather Data**:
+  - Displays the current temperature, weather conditions (e.g., "broken clouds"), and location (e.g., "Faridabad, IN").
+  - Shows detailed weather metrics, including wind speed, humidity, visibility, and pressure.
   
-## Technologies Used
+- **5-Day Weather Forecast**:
+  - Provides a 5-day weather forecast with temperature and weather conditions for each day.
 
-- **HTML, CSS, JavaScript**: Core technologies for building the front-end and client-side logic.
-- **OpenWeatherMap API**: Source for fetching real-time weather data.
-- **Live Server**: Use any live server to run `index.html`.
+- **Today's Highlights**:
+  - **Air Quality Index (AQI)**: Shows PM2.5, SO2, NO2, O3 concentrations, and the AQI level.
+  - **Sunrise & Sunset**: Displays the times for sunrise and sunset.
+  - **Feels Like**: Shows how the weather feels (real-feel temperature).
 
-## Setup Instructions
+- **Hourly Weather Updates**:
+  - Provides weather updates for each day at different times of the day.
+  - Displays the changing weather conditions and wind speeds across various times.
 
-1. **Clone the repository**:
-    ```bash
-    git clone <your-repo-url>
-    ```
+- **Wind Speed Information**:
+  - Visualizes wind speed and direction for different times of the day.
 
-2. **Get your OpenWeatherMap API Key**:
-   - Sign up on [OpenWeatherMap](https://openweathermap.org/).
-   - Replace the placeholder in the code (`YOUR_API_KEY_HERE`) with your API key.
+- **Weather Summary**:
+  - Includes a summary of today’s weather and future trend predictions.
 
-3. **Run the Application**:
-   - Open the `index.html` file in any live server.
-   - You can use VS Code with the Live Server extension or any other method to host the site locally.
-
-## Design Choices
-
-- **Data Fetching**: The system fetches data every 5 minutes from the OpenWeatherMap API for specified cities in India.
-- **Rollups and Aggregates**: Weather data is processed to provide daily summaries, including average, maximum, minimum temperature, and the most frequent weather condition for each day.
-- **Alerting**: The system compares weather data against user-defined thresholds and triggers alerts via console logs or visual indicators.
-
-## Dependencies
-
-- **OpenWeatherMap API**: The system depends on the OpenWeatherMap API for weather data. You will need to sign up and obtain an API key to use the application.
-- **Live Server**: This project uses a live server to run the HTML, CSS, and JavaScript files. You can use any web server or use the Live Server extension in VS Code.
+- **Graphical Visualization**:
+  - Historical weather data and trends are presented in graphs for easy analysis and visual understanding.
 
 ## Screenshots
+![image](https://github.com/user-attachments/assets/db0605ca-83e3-48c9-9e0d-1bb03f1f90db)
 
-<!-- Add your screenshots here -->
-You can add screenshots here showing the interface, graphs, and alerts. To include them in markdown, use the following syntax:
-```markdown
-![Screenshot 1](./path-to-screenshot-1.png)
-```
 
-## Test Cases
+### 1. Current Weather
+![image](https://github.com/user-attachments/assets/b1311331-89d0-41ee-9b92-0b63cf1f7e0a)
 
-### 1. System Setup
-- Verify that the system successfully starts and connects to the OpenWeatherMap API using a valid API key.
 
-### 2. Data Retrieval
-- Ensure the system retrieves weather data for the specified locations and correctly parses the response.
+### 2. 5-Day Forecast
+![image](https://github.com/user-attachments/assets/805d4c29-1cfa-4ba5-9ca8-e1747107cea3)
 
-### 3. Temperature Conversion
-- Test the conversion from Kelvin to Celsius/Fahrenheit based on user preference.
 
-### 4. Daily Weather Summary
-- Simulate a sequence of weather updates and verify that daily summaries (average, max, min temperatures) are calculated correctly.
+### 3. Today's Highlights
+![image](https://github.com/user-attachments/assets/29aa23b1-0264-49e4-a055-81bcd59aed84)
 
-### 5. Alerting Thresholds
-- Configure user-defined thresholds and test alerts when thresholds (e.g., temperature exceeding 35°C) are breached.
 
-## Future Enhancements
+### 4. Today At
+![image](https://github.com/user-attachments/assets/d3fe4152-1235-4470-87a5-fcf282798544)
 
-- **Support for Additional Weather Parameters**: Extend the system to handle additional weather data like humidity and wind speed.
-- **Forecast Retrieval**: Implement forecast-based weather summaries for proactive monitoring.
 
-## Bonus Implementations
+### 5. Historical Data Graphs
 
-- Incorporated **alerts** for high-temperature thresholds.
-- Option to display data in both Celsius and Fahrenheit.
-- Easy-to-extend for additional weather parameters from OpenWeatherMap.
+![image](https://github.com/user-attachments/assets/b799af5f-173a-4f8c-bf65-58274f45ca64)
 
-## How to Contribute
+![image](https://github.com/user-attachments/assets/85a4b1db-63d5-438c-9ffe-0a7f4c308bd4)
 
-Feel free to submit pull requests or report issues if you encounter bugs or have suggestions for improvements.
 
----
+## Installation
 
-With this markdown, you can provide screenshots where necessary and ensure the README is easy to follow and comprehensive for anyone who wants to run or contribute to your project!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/weather-monitoring.git
+   cd weather-monitoring
+   ```
+
+2.Open index.html in your browser or run it using a live server extension (if applicable).
+
+## Usage
+
+- Open the application in your browser to view real-time weather data for selected cities.
+- Toggle between different views for:
+  - **Current Weather**
+  - **5-Day Forecast**
+  - **Today's Highlights**
+  - **Wind Speed**
+- View historical data visualizations through graphs for a deeper analysis of weather trends over time.
+
+
+
+## Technologies Used
+
+- **Frontend**: HTML, CSS, JavaScript 
+- **API**: OpenWeatherMap API
+- **Visualizations**: Charts.js for rendering graphs
+
